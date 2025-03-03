@@ -3,5 +3,5 @@
       loadstring(game:HttpGet(scriptUrl2))()
         end)
         if not success then
-        Print("خطاء")
+        print("خطاء")
         end
