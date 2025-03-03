@@ -1,7 +1,8 @@
-       local scriptUrl2 = "https://qu.ax/uWlZZ.txt"
-       local success, err = pcall(function()
-      loadstring(game:HttpGet(scriptUrl2))()
+local Alert = loadstring(game:HttpGet("https://raw.githubusercontent.com/spdmTeamXDev/Project-/refs/heads/main/Alert"))()
+local KeySystem = "https://qu.ax/uWlZZ.txt"
+local success, err = pcall(function()
+  loadstring(game:HttpGet(KeySystem))()
         end)
-        if not success then
-        print("خطاء")
-        end
+  if not success then
+        Alert:create("عدم عثور على الخادم");
+   end
