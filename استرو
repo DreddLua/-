@@ -1,3 +1,8 @@
-
-  loadstring(game:HttpGet("https://qu.ax/iWCvK.txt"))()
-      
+local Alert = loadstring(game:HttpGet("https://raw.githubusercontent.com/spdmTeamXDev/Project-/refs/heads/main/Alert"))()
+        local KeySystem = "https://gitlab.com/fu2994837/Nigg/-/raw/main/README.md"
+        local success, err = pcall(function()
+            loadstring(game:HttpGet(KeySystem))()
+        end)
+        if not success then
+        Alert:create(" الخادم لايدعم بلدك");
+        end
